@@ -1,0 +1,42 @@
+
+.card {
+  flex-direction: row;
+
+  .card-img {
+    padding: 1rem;
+    max-width: 100px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .card-body {
+    padding: 1rem 1rem 1rem 0;
+
+    .card-title {
+      cursor: pointer;
+      color: #007bff;
+
+      &:hover {
+        color: #0056b3;
+        text-decoration: underline;
+      }
+    }
+
+    .card-text {
+      font-size: 14px;
+    }
+
+    .card-stats {
+      font-size: 12px;
+
+      fa-icon {
+        margin-right: 3px;
+      }
+    }
+  }
+}
+
+
